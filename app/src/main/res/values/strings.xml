@@ -3,6 +3,8 @@
     <string name="title">Welcome to KouHai</string>
     <string name="body">A place where you can learning Japanese, that can take you from Kouhai to SENPAI!</string>
     <string name="get_started">Get Started</string>
-    <string name="title_login">What’s your Name? 📨</string>
-    <string name="body_login">We just want to get to know you better</string>
+    <string name="title_login">Login 📨</string>
+    <string name="body_login">Please input your username and password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

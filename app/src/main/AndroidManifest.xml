@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KouHai">
         <activity
+            android:name=".Lesson1"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote"
+            android:exported="false" />
+        <activity
+            android:name=".Hiragana"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

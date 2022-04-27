@@ -7,67 +7,51 @@
     tools:context=".MainActivity">
 
 
-    <View
-        android:id="@+id/eclipse_landing_page"
-        android:layout_width="412dp"
-        android:layout_height="457dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/eclipse_landing_page"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
 
-    <View
-        android:id="@+id/holy_gate_1"
-        android:layout_width="148dp"
-        android:layout_height="144dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/holy_gate_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/eclipse_landing_page"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/eclipse_landing_page"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291" />
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:src="@drawable/start" />
+
+
+    </LinearLayout>
+
 
     <TextView
-        android:id="@+id/title"
-        android:layout_width="327dp"
-        android:layout_height="36dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="13dp"
-        android:gravity="center_horizontal|bottom"
-        android:lineSpacingExtra="2sp"
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/title"
         android:textAppearance="@style/title"
-        android:translationY="1.07sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eclipse_landing_page" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        tools:layout_editor_absoluteX="0dp" />
+
 
     <TextView
         android:id="@+id/body"
-        android:layout_width="327dp"
-        android:layout_height="56dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|bottom"
-        android:lineSpacingExtra="8sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center"
         android:text="@string/body"
         android:textAppearance="@style/body"
-        android:translationY="3.96sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title"
-        app:layout_constraintVertical_bias="0.1"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        app:layout_constraintVertical_bias="0.134"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/button"
@@ -79,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/body"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.31" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

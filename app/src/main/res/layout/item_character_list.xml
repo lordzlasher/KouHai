@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="3dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_whitenew"/>
+        <ImageView
+            android:id="@+id/imageList"
+            android:layout_width="match_parent"
+            android:paddingTop="18dp"
+            android:layout_height="90dp"
+            android:paddingRight="260dp"
+            android:src="@drawable/lesson1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="3dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_headline"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Lesson 1" />
+
+            <TextView
+                android:id="@+id/text_subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Perkenalan diri dalam bahasa Jepang"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
