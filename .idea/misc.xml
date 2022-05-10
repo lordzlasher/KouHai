@@ -3,30 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/bg_orange.xml" value="0.1" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/bg_white.xml" value="0.1" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/bg_whitenew.xml" value="0.1235" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/custom_input.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/custom_lock_icon.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/custom_person_icon.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/form.xml" value="0.1235" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_home.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_lock.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_lock_focused.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_lock_focusednew.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_person.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/drawable/ic_person_focused.xml" value="0.105" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_hiragana.xml" value="0.22" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_lesson1.xml" value="0.22" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/activity_senpai_note.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/fragment_about.xml" value="0.165625" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/fragment_courses.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/layout/item_character_list.xml" value="0.1796875" />
-        <entry key="..\:/Backup dari file Videos/PROGMOB BROK/KouHai/app/src/main/res/menu/bottom_navigation.xml" value="0.1796875" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/drawable/base_button.xml" value="0.1835" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/layout/activity_home.xml" value="0.15534420289855072" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/layout/activity_login.xml" value="0.175" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/layout/activity_main.xml" value="0.175" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/layout/activity_quiz.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Matkul/progmob/KouHai/KouHai/app/src/main/res/layout/activity_quiztest.xml" value="0.22" />
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/drawable/base_button.xml" value="0.2265" />
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/drawable/bg_button_orange.xml" value="0.2265" />
