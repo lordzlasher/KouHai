@@ -39,7 +39,6 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ViewHolder> {
     @NonNull
     @Override
     public AdapterList.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_character_list, parent, false);
         //myonClickListener
         return new ViewHolder(view);

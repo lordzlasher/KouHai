@@ -15,11 +15,20 @@
 
         tools:ignore="MissingConstraints">
 
-        <ImageView
-            android:id="@+id/start"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="480dp"
-            android:src="@drawable/start" />
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animasi"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:elevation="5dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/dogsmilling"
+                app:lottie_repeatCount="100" />
+        </RelativeLayout>
 
 
     </LinearLayout>

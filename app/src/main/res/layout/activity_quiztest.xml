@@ -8,18 +8,6 @@
     android:background="#E6F6E6">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="26dp"
-        android:background="@drawable/Group_145"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
-
-    <ImageView
         android:id="@+id/imageView"
         android:layout_width="347dp"
         android:layout_height="240dp"
@@ -47,7 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
         android:layout_marginTop="120dp"
-        android:background="@drawable/あ"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
@@ -69,7 +56,7 @@
         android:id="@+id/QuistestA"
         android:layout_width="84dp"
         android:layout_height="86dp"
-        android:background="@drawable/Rectangle_tosca"
+        android:background="@drawable/bg_orange"
         android:text="A"
         android:textColor="#000000"
         android:textSize="60dp"
@@ -84,7 +71,7 @@
         android:id="@+id/QuistestU"
         android:layout_width="84dp"
         android:layout_height="86dp"
-        android:background="@drawable/Rectangle_orange"
+        android:background="@drawable/bg_orange"
         android:text="U"
         android:textColor="#000000"
         android:textSize="60dp"
@@ -99,7 +86,7 @@
         android:id="@+id/QuistestI"
         android:layout_width="84dp"
         android:layout_height="86dp"
-        android:background="@drawable/Rectangle_tosca"
+        android:background="@drawable/bg_orange"
         android:text="I"
         android:textColor="#000000"
         android:textSize="60dp"
@@ -114,7 +101,7 @@
         android:id="@+id/QuistestE"
         android:layout_width="84dp"
         android:layout_height="86dp"
-        android:background="@drawable/Rectangle_tosca"
+        android:background="@drawable/bg_orange"
         android:text="E"
         android:textColor="#000000"
         android:textSize="60dp"

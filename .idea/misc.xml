@@ -20,6 +20,40 @@
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Unud/SEMESTER 4/4. Pemrograman mobile/Tubes/KouHai/app/src/main/res/layout/home_page.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/base_button.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/bg_button_orange.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/bg_orange.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/bg_white.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/bg_whitenew.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/custom_person_icon.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/form.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/form2.xml" value="0.221" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_about.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_arrowright.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_courses.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_home.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_launcher_background.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_lock.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_lock_focused.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_person.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_person_focused.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_person_focusednew.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/drawable/ic_search.xml" value="0.231" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_detail_course.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_hiragana.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_lesson1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_quiztest.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/activity_senpai_note.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/fragment_courses.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/layout/item_character_list.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/KouHai/app/src/main/res/menu/bottom_navigation.xml" value="0.22" />
       </map>
     </option>
   </component>

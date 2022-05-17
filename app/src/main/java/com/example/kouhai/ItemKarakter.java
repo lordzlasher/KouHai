@@ -40,4 +40,5 @@ class ItemKarakter {
             "Memberi tahu supir taksi arah tujuan Anda",
             "Menanyakan nama sesuatu yang Anda tidak tahu"
     };
+
 }
