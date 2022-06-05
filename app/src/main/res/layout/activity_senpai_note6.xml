@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SenpaiNote6"
+    android:background="@color/orange">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/senpaibulet"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:elevation="6dp"/>
+    <RelativeLayout
+        android:elevation="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bottom_sheet_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Senpai's Notes"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colordivider" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/form2"
+                android:elevation="6dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="@color/black"
+                            android:text="Pola Kalimat"/>
+=                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="Bilangan + mata uang\n1000 + yen"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colordivider"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="@color/black"
+                            android:text='千円\n1000 yen\nsen en' />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colordivider"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="@color/black"
+                            android:text="Bilangan dalam Bahasa Jepang"/>
+                        <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/nunito_regular"
+                            android:text="300 = san-byaku\n1000 = sen\n1500 = sen-go-hyaku\n2000 = ni-sen\n10,000 = ichi-man\n100,000 = juu-man\n1,000,000 = hyaku-man\n10,000,000 = sen-man\n100,000,000 = ichi-oku\n1,000,000,000,000 = chō\n"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="@color/black"
+                            android:text="Fun Fact"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="Jepang memiliki empat pecahan uang kertas: 1.000, 2.000, 5.000, dan 10.000 yen. Tapi untuk pecahan 2.000 yen sangat jarang terlihat. Untuk koin, ada 6 jenis: satu, lima, sepuluh, 50, 100 dan 500yen."/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text="Di Jepang juga ada etiket saat memberikan uang sebagai hadiah pernikahan atau perayaan lainnya, yaitu kita harus memasukkan uang kertas yang baru ke dalam amplop khusus untuk perayaan tersebut."/>
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

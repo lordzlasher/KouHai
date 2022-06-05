@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KouHai">
         <activity
+            android:name=".SenpaiNote10"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote9"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote8"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote7"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote6"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote5"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote4"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote3"
+            android:exported="false" />
+        <activity
+            android:name=".SenpaiNote2"
+            android:exported="false" />
+        <activity
             android:name=".StartquizActivity"
             android:exported="false" />
         <activity
