@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KouHai">
         <activity
+            android:name=".StartquizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Chat1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video1Activity"
+            android:exported="false" />
+        <activity
             android:name=".Lesson1"
             android:exported="false" />
         <activity

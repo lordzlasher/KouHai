@@ -1,5 +1,6 @@
 package com.example.kouhai;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -34,10 +35,12 @@ public class CoursesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    RecyclerView recyclerView;
+    RecyclerView recyclerView; //new
+    ArrayList<Courses> list; //new
+//    RecyclerView recyclerView;
     RecyclerView.Adapter recyclerViewAdapter;
     RecyclerView.LayoutManager recylerViewLayoutManager;
-    ArrayList<Karakter> data;
+//    ArrayList<Karakter> data;
 
     public CoursesFragment() {
         // Required empty public constructor
@@ -80,12 +83,12 @@ public class CoursesFragment extends Fragment {
 
 
 
-        data = new ArrayList<>();
-        for (int i = 0; i < ItemKarakter.Headline.length; i++) {
-            data.add(new Karakter(
-                    ItemKarakter.Headline[i],
-                    ItemKarakter.Subhead[i],
-                    ItemKarakter.iconList[i]
+        list = new ArrayList<>();
+        for (int i = 0; i < ItemCourses.Headline.length; i++) {
+            list.add(new Courses(
+                    ItemCourses.Headline[i],
+                    ItemCourses.Subhead[i],
+                    ItemCourses.iconList[i]
             ));
         }
 
@@ -95,7 +98,27 @@ public class CoursesFragment extends Fragment {
     private void showList() {
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getContext()));
         //recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        AdapterList adapterList = new AdapterList(data);
-        recyclerView.setAdapter(adapterList);
+        AdapterCourses adapter= new AdapterCourses(list);
+        recyclerView.setAdapter(adapter);
+
+        adapter.OnRecyclerViewClickListener(new AdapterCourses.OnRecyclerViewClickListener() {
+            @Override
+            public void OnItemClick(int position) {
+                Intent intent;
+                intent = new Intent(getActivity(), Lesson1.class);
+                startActivity(intent);
+//                switch (position) {
+//                    case 0: //first item in Recycler view
+//                        intent = new Intent(getActivity(), SenpaiNote.class);
+//                        startActivity(intent);
+//                        break;
+//                    case 1: //second item in Recycler view
+//                        intent = new Intent(getActivity(), Lesson1.class);
+//                        startActivity(intent);
+//                        break;
+//                }
+            }
+        });
+
     }
 }

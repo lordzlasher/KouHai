@@ -13,11 +13,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingLeft="30dp"
             android:paddingTop="12dp"
             android:text="Courses"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
@@ -26,6 +28,6 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:scrollbars="vertical"
-        tools:listitem="@layout/item_character_list" />
+        tools:listitem="@layout/item_courses_list" />
 
 </LinearLayout>

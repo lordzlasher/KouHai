@@ -10,4 +10,5 @@
     <color name="orange">#FFB080</color>
     <color name="yellow">#FFE4AC</color>
     <color name="redpastel">#FFACAC</color>
+    <color name="colordivider">#ECECEC</color>
 </resources>

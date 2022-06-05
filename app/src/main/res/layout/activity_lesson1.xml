@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Hiragana">
+    tools:context=".Lesson1">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,17 +15,18 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:background="@color/yellow" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Course"
-            android:textSize="18dp"
-            android:gravity="center"
             android:layout_marginTop="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
             android:elevation="6dp"
-            />
+            android:gravity="center"
+            android:text="Course"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,23 +37,26 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/bg_white"
             android:elevation="6dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="chat1">
 
             <ImageView
-                android:layout_width="80dp"
+                android:layout_width="70dp"
                 android:layout_height="80dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
                 android:src="@drawable/lesson1" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="38dp"
                 android:text="Perkenalan Singkat"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
     </RelativeLayout>
@@ -66,7 +70,9 @@
             android:text="Lesson"
             android:layout_marginLeft="35dp"
             android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -95,17 +101,18 @@
         android:layout_height="wrap_content">
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="150dp">
+            android:layout_height="160dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text='Sebagaimana dalam "[nama/pekerjaan] desu," "desu" muncul setelah kata benda untuk menjadi sebuah kalimat. Dalam "A wa B desu" atau "A adalah B," A merupakan topik atau subjek dan B menjelaskan hal itu. Dalam ungkapan kunci, bagian "A wa," yaitu "watashi wa" atau "saya" dihilangkan. \n\nMenghilangkan topik atau subjek: Jika topik atau subjeknya sudah jelas dari konteksnya, maka kerap dihilangkan. Misalnya dalam perkenalan diri, Anda bisa menghilangkan "watashi wa" atau "saya" dari "watashi wa Tamu desu," atau "saya Tam." Tinggal katakan "Tamu desu."'
+                android:text='Sebagaimana dalam "[nama/pekerjaan] desu," "desu" muncul setelah kata benda untuk menjadi sebuah kalimat. Dalam "A wa B desu" atau "A adalah B," A merupakan topik atau subjek dan B menjelaskan hal itu. Dalam ungkapan kunci, bagian "A wa," yaitu "watashi wa" atau "saya" dihilangkan. \n\nMenghilangkan topik atau subjek: Jika topik atau subjeknya sudah jelas dari konteksnya, maka kerap dihilangkan. Misalnya dalam perkenalan diri, Anda bisa menghilangkan "watashi wa" atau "saya" dari "watashi wa Tamu desu," atau "saya Tam." Tinggal katakan Tamu desu'
                 android:layout_marginTop="18dp"
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:textSize="15dp"
                 android:textColor="@color/black"
-                android:letterSpacing="0.01"/>
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/nunito_regular"/>
 
         </ScrollView>
 
@@ -124,7 +131,8 @@
             android:orientation="horizontal"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp">
+            android:layout_marginRight="30dp"
+            android:onClick="senpai">
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -139,12 +147,13 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="30dp"
                 android:textSize="20dp"
-                android:layout_marginLeft="15dp"/>
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/nunito_bold"/>
 
             <ImageView
                 android:layout_width="19dp"
                 android:layout_height="24dp"
-                android:layout_marginLeft="75dp"
+                android:layout_marginLeft="70dp"
                 android:layout_marginTop="35dp"
                 android:src="@drawable/ic_arrowright" />
 
@@ -152,13 +161,15 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonShow"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:background="@drawable/base_button"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:text="Take Quiz" />
+            android:text="See Video"
+            android:textAllCaps="false"/>
+
 
 
     </LinearLayout>

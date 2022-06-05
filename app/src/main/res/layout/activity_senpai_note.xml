@@ -5,59 +5,127 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SenpaiNote">
-
-
+    tools:context=".SenpaiNote"
+    android:background="@color/orange">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/senpaibulet"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:elevation="6dp"/>
     <RelativeLayout
+        android:elevation="9dp"
         android:layout_width="match_parent"
-        android:layout_height="280dp">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="80dp">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/senpai"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="150dp">
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Senpai's Note"
-                android:layout_centerInParent="true"
-                android:textSize="18dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"/>
-        </RelativeLayout>
-    </RelativeLayout>
+        android:layout_height="700dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bottom_sheet_background">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="380dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/form2">
-
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'/>
-        </ScrollView>
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Senpai's Notes"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colordivider" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/form2"
+                android:elevation="6dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+                            android:text='Bahasa Jepang memiliki tiga karakter penulisan -- Kanji, Hiragana dan Katakana. Misalnya, untuk menulis "watashi wa Tamu desu" atau "saya Tam" adalah:' />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="@color/black"
+                            android:text='私はタムです \nHajimemashite' />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colordivider"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+                            android:textColor="@color/black"
+                            android:text='"私" adalah Kanji, "は" dan "です" adalah Hiragana, dan "タム" adalah Katakana.' />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/nunito_regular"
+
+                            android:text='Katakana digunakan untuk menulis nama dan kata-kata serapan bahasa asing. Hiragana digunakan untuk hal lainnya. Fonetik huruf Katakana dan Hiragana berasal dari Kanji. Kanji merupakan ideogram atau tanda grafis dan digunakan untuk menuliskan makna utama.' />
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
 
     </RelativeLayout>
+
+
+
+
 
 
 
