@@ -105,7 +105,7 @@ public class CoursesFragment extends Fragment {
             @Override
             public void OnItemClick(int position) {
                 Intent intent;
-                intent = new Intent(getActivity(), Lesson1.class);
+                intent = new Intent(getActivity(), Lesson5.class);
                 startActivity(intent);
 //                switch (position) {
 //                    case 0: //first item in Recycler view

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lesson3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/yellow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:text="Course"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_white"
+            android:elevation="6dp"
+            android:orientation="horizontal"
+            android:onClick="chat1">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/lesson3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="38dp"
+                android:text="Mengucapkan Salam"
+                android:textSize="20dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lesson"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/yellow">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:text="Ohayō gozaimasu.\nおはよう ございます。\nSelamat pagi.\n\nKonnichiwa\nこんにちは\nSelamat siang/sore.\n\nKonbanwa\nこんばんは\nSelamat malam.\n\nOyasumi nasai.\nお休みなさい。\nSelamat malam (Selamat tidur)\n\nSayōnara.\nさようなら。\nSelamat tinggal."
+                android:textColor="@color/black"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/nunito_bold"/>
+    </ScrollView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ohayou Gozaimasu biasanya digunakan saat bangun tidur sampai sekitar 10.00 am – 12.00 pm. Orang jepang juga biasa menggunakan kata Ohayoo/ Oha untuk saling menyapa secara informal dengan saudara, teman dan seterusnya. \n\nKonnichiwa pada umumnya diucapkan pada siang -sore sekitar 10.00 am – 12.00 pm sampai matahari terbenam. Namun, terkadang Sebagian orang jepang mengucapkan Konnichiwa pada malam hari sebagai sapaan seperti halo atau hi dalam Bahasa Indonesia. \n\nKonbanwa diucapkan pada malam hari setelah matahari tenggelam. Ucapan ini bisa dikatakan jarang digunakan kepada orang yang sering bertemu sekaligus yang memiliki hubungan dekat.\n\nTerakhir Oyasumi, biasanya digunakan saat ingin tidur atau berpisah dengan lawan bicara pada malam hari. Oyasuminasai bukan merupakan salam pertemuan melainkan salam perpisahan sama halnya seperti Sayonara"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/nunito_regular"/>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/bg_whitenew"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="senpai">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/senpai" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senpai's Note"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/nunito_bold"/>
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/ic_arrowright" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonShow"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="See Video"
+            android:textAllCaps="false"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
