@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lesson6">
+    tools:context=".Lesson8">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,14 +46,14 @@
                 android:layout_marginLeft="21dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:src="@drawable/lesson6" />
+                android:src="@drawable/lesson8" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="38dp"
-                android:text="Menanyakan Harga"
+                android:text="Menanyakan Destinasi"
                 android:textSize="20dp"
                 android:fontFamily="@font/nunito_bold"
                 android:textColor="@color/black"/>
@@ -76,63 +76,44 @@
 
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingBottom="18dp">
 
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/lesson_8"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="80dp"/>
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/form2"
-        android:elevation="6dp">
-
+        android:layout_height="wrap_content">
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="160dp"
             android:scrollbars="none">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginRight="35dp"
-                    android:fontFamily="@font/nunito_bold"
-                    android:letterSpacing="0.01"
-                    android:text="Kono (この)\nini (bendanya ada di dekat/dipegang pembicara)\n\nSono (その)\nitu (bendanya ada di dekat/dipegang lawan bicara)\n\nAno (あの)\nitu (posisi benda berada jauh dari pembicara maupun lawan bicara)"
-                    android:textAlignment="center"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginRight="35dp"
-                    android:fontFamily="@font/nunito_regular"
-                    android:letterSpacing="0.01"
-                    android:text="Saat menanyakan harga barang, katakan ‘ikura desu ka’ atau ‘berapa harganya?’ \n\nKetika menyebutkan nama barangnya, katakan ‘Kono/Sono/Ano (barangnya) wa ikura desu ka.’ \n\n‘Ikura’ merupakan kata tanya yang berarti ‘berapa harganya?’"
-                    android:textColor="@color/black"
-                    android:textSize="15dp" />
-            </LinearLayout>
+                android:text="Untuk bertanya lokasi tujuan, gunakan ‘[nama tempat] wa doko desu ka.’ ‘Wa’ adalah partikel penanda topik yang muncul setelah kata benda. Dalam hiragana tertulis ‘は (ha)’ tapi pengucapannya adalah ‘wa.’ Lalu tambahkan ‘desu ka’ setelah kata tanya ‘doko’ atau ‘di mana’ dan naikkan intonasi Anda untuk menjadi sebuah pertanyaan.\n\nPartikel ‘ka’ mengindikasikan sebuah pertanyaan: ‘Ka’ yang ada dalam ‘doko desu ka’ adalah partikel yang muncul di akhir kalimat. Mengubah kalimat menjadi pertanyaan."
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/nunito_regular"/>
 
         </ScrollView>
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

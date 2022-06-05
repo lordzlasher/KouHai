@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KouHai">
         <activity
+            android:name=".Lesson10"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson9"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson8"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson7"
+            android:exported="false" />
+        <activity
             android:name=".Lesson6"
             android:exported="false" />
         <activity

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lesson6">
+    tools:context=".Lesson10">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,14 +46,14 @@
                 android:layout_marginLeft="21dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:src="@drawable/lesson6" />
+                android:src="@drawable/lesson10" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="38dp"
-                android:text="Menanyakan Harga"
+                android:text="Menanyakan Sesuatu"
                 android:textSize="20dp"
                 android:fontFamily="@font/nunito_bold"
                 android:textColor="@color/black"/>
@@ -76,63 +76,42 @@
 
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingBottom="18dp">
 
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson_10"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"/>
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/form2"
-        android:elevation="6dp">
-
+        android:layout_height="wrap_content">
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="160dp"
             android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginRight="35dp"
-                    android:fontFamily="@font/nunito_bold"
-                    android:letterSpacing="0.01"
-                    android:text="Kono (この)\nini (bendanya ada di dekat/dipegang pembicara)\n\nSono (その)\nitu (bendanya ada di dekat/dipegang lawan bicara)\n\nAno (あの)\nitu (posisi benda berada jauh dari pembicara maupun lawan bicara)"
-                    android:textAlignment="center"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginRight="35dp"
-                    android:fontFamily="@font/nunito_regular"
-                    android:letterSpacing="0.01"
-                    android:text="Saat menanyakan harga barang, katakan ‘ikura desu ka’ atau ‘berapa harganya?’ \n\nKetika menyebutkan nama barangnya, katakan ‘Kono/Sono/Ano (barangnya) wa ikura desu ka.’ \n\n‘Ikura’ merupakan kata tanya yang berarti ‘berapa harganya?’"
-                    android:textColor="@color/black"
-                    android:textSize="15dp" />
-            </LinearLayout>
+                android:text="Untuk menanyakan nama sesuatu, tunjuk dan katakan ‘Kore/Sore/Are wa nan desu ka.’ Untuk sesuatu yang dekat dengan Anda, gunakan ‘kore.’ Untuk sesuatu yang dekat dengan lawan bicara Anda, gunakan ‘sore.’ Jika jauh dari Anda dan lawan bicara Anda, gunakan ‘are.’ Sementara ‘Nan’ adalah kata tanya yang artinya ‘apa.’\n\n‘Nan/Nani’ (Apa):\n\nKata ‘nan’ dalam ‘nan desu ka’ atau ‘Ini apa’ memiliki arti yang sama dengan ‘nani’ dalam ‘nani o shimasu ka’ atau ‘apa yang akan kamu lakukan?’ Tapi diucapkan ‘nan’ saat muncul sebelum ‘desu ka.’"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:letterSpacing="0.01"
+                android:fontFamily="@font/nunito_regular"/>
 
         </ScrollView>
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
