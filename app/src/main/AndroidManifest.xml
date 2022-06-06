@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KouHai">
         <activity
+            android:name=".Video10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Video2Activity"
+            android:exported="false" />
+        <activity
             android:name=".Lesson10"
             android:exported="false" />
         <activity

@@ -3,8 +3,10 @@ package com.example.kouhai;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,8 +20,9 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
 
     TextView questionTextView, subquestion, nilai, hasil;
     Button ansA, ansB, ansC;
-    Button submitBtn;
+    Button backbutton, quizbutton, submitBtn;
     LottieAnimationView gambarhasil;
+    Dialog dialog;
 
     int score=0;
     int totalQuestion = QuestionAnswer.question.length;
@@ -31,12 +34,9 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz1);
 
-
+        dialog = new Dialog(this);
         questionTextView = findViewById(R.id.question);
         subquestion = findViewById(R.id.subquestion);
-        nilai = findViewById(R.id.nilaiquiz);
-        hasil = findViewById(R.id.hasilnya);
-        gambarhasil = findViewById(R.id.animasiresult);
         ansA = findViewById(R.id.ans_A);
         ansB = findViewById(R.id.ans_B);
         ansC = findViewById(R.id.ans_C);
@@ -96,21 +96,58 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
     void finishQuiz(){
         String passStatus = "";
         if(score > totalQuestion*0.60){
-            passStatus = "Kamu Sudah Menguasai Materi !";
+            passStatus = "Passed";
+
 
 
         }else{
-            passStatus = "Kamu Belum Menguasai Materi !";
+            passStatus = "Failed";
+
 
         }
+        dialog.setContentView(R.layout.activity_result_quiz);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        nilai = dialog.findViewById(R.id.nilaiquiz);
+        hasil = dialog.findViewById(R.id.hasilnya);
+        gambarhasil = dialog.findViewById(R.id.animasiresult);
+        gambarhasil = dialog.findViewById(R.id.animasiresult);
+        backbutton = dialog.findViewById(R.id.backButton);
+        quizbutton = dialog.findViewById(R.id.quizButton);
 
-        new AlertDialog.Builder(this)
-                .setTitle(passStatus)
-                .setMessage("Score is "+ score+" out of "+ totalQuestion)
-                .setIcon(R.drawable.senpaibulet)
-                .setPositiveButton("Restart",(dialogInterface, i) -> restartQuiz() )
-                .setCancelable(false)
-                .show();
+        hasil.setText(passStatus);
+        nilai.setText(score+" / 3");
+        if(score > totalQuestion*0.60){
+            gambarhasil.setAnimation(R.raw.shiba_happy);
+
+
+        }else{
+            gambarhasil.setAnimation(R.raw.shiba_sad);
+
+        }
+        dialog.show();
+        backbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent(getApplicationContext(), Home.class);
+                startActivity(intent);
+            }
+        });
+        quizbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
+//        new AlertDialog.Builder(this)
+//                .setTitle(passStatus)
+//                .setMessage("Score is "+ score+" out of "+ totalQuestion)
+//                .setIcon(R.drawable.senpaibulet)
+//                .setPositiveButton("Restart",(dialogInterface, i) -> restartQuiz() )
+//                .setCancelable(false)
+//                .show();
 
 
     }

@@ -105,18 +105,48 @@ public class CoursesFragment extends Fragment {
             @Override
             public void OnItemClick(int position) {
                 Intent intent;
-                intent = new Intent(getActivity(), Lesson10.class);
-                startActivity(intent);
-//                switch (position) {
-//                    case 0: //first item in Recycler view
-//                        intent = new Intent(getActivity(), SenpaiNote.class);
-//                        startActivity(intent);
-//                        break;
-//                    case 1: //second item in Recycler view
-//                        intent = new Intent(getActivity(), Lesson1.class);
-//                        startActivity(intent);
-//                        break;
-//                }
+                switch (position) {
+                    case 0: //first item in Recycler view
+                        intent = new Intent(getActivity(), Lesson1.class);
+                        startActivity(intent);
+                        break;
+                    case 1: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson2.class);
+                        startActivity(intent);
+                        break;
+                    case 2: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson3.class);
+                        startActivity(intent);
+                        break;
+                    case 3: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson4.class);
+                        startActivity(intent);
+                        break;
+                    case 4: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson5.class);
+                        startActivity(intent);
+                        break;
+                    case 5: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson6.class);
+                        startActivity(intent);
+                        break;
+                    case 6: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson7.class);
+                        startActivity(intent);
+                        break;
+                    case 7: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson8.class);
+                        startActivity(intent);
+                        break;
+                    case 8: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson9.class);
+                        startActivity(intent);
+                        break;
+                    case 9: //second item in Recycler view
+                        intent = new Intent(getActivity(), Lesson10.class);
+                        startActivity(intent);
+                        break;
+                }
             }
         });
 

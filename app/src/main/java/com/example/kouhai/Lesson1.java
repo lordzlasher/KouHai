@@ -40,8 +40,4 @@ public class Lesson1 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void chat1(View view) {
-        Intent intent = new Intent(Lesson1.this, Chat1Activity.class);
-        startActivity(intent);
-    }
 }

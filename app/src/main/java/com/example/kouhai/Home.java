@@ -64,12 +64,15 @@ public class Home extends AppCompatActivity {
         startActivity(i);
     }
     public void showCourse2(View view) {
-        Intent i = new Intent(getApplicationContext(), Lesson1.class);
+        Intent i = new Intent(getApplicationContext(), Lesson2.class);
         startActivity(i);
     }
     public void showMoreCourse(View view) {
-        Intent i = new Intent(getApplicationContext(), Lesson1.class);
-        startActivity(i);
+//        Intent i = new Intent(getApplicationContext(), Lesson3.class);
+//        startActivity(i);
+        if(view.getId()==R.id.callfragment){
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CoursesFragment()).commit();
+        }
     }
 
 

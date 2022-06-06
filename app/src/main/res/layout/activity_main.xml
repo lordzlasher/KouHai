@@ -40,11 +40,13 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/title"
+        android:textSize="27dp"
         android:textAppearance="@style/title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.59"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:fontFamily="@font/nunito_bold"/>
 
 
     <TextView
@@ -60,7 +62,8 @@
         app:layout_constraintTop_toBottomOf="@+id/judul"
         app:layout_constraintVertical_bias="0.134"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:fontFamily="@font/nunito_regular"/>
 
     <Button
         android:id="@+id/button"
@@ -68,6 +71,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/base_button"
         android:text="@string/get_started"
+        android:fontFamily="@font/nunito_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
